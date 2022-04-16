@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FORMATION\\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\\Project_Code\\Codes\\DatingApp\\API\\API.csproj": {}
+  },
+  "projects": {
+    "D:\\FORMATION\\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\\Project_Code\\Codes\\DatingApp\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FORMATION\\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\\Project_Code\\Codes\\DatingApp\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "D:\\FORMATION\\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\\Project_Code\\Codes\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\leith\\.nuget\\packages\\",
+        "outputPath": "D:\\FORMATION\\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\\Project_Code\\Codes\\DatingApp\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\leith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://localhost:8585/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

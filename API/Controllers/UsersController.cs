@@ -11,9 +11,8 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class UsersController : ControllerBase
+
+    public class UsersController : BaseApiController
     {
         private readonly DataDbContext _context;
 

@@ -1,6 +1,8 @@
 ﻿using API.Data;
 using API.DTOs;
 using API.Entities;
+using API.Interfaces;
+using API.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,10 +20,12 @@ namespace API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly DataDbContext _context;
+        private readonly ITokenService _tokenService;
 
-        public AccountController(DataDbContext context)
+        public AccountController(DataDbContext context , ITokenService tokenService)
         {
             _context = context;
+            _tokenService = tokenService;
         }
 
        
@@ -45,7 +49,7 @@ namespace API.Controllers
             return user;
         }
         [HttpPost("login")]
-        public async Task<ActionResult<AppUser>> Login(LoginDto loginDto)
+        public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
             var user = await _context.Users.SingleOrDefaultAsync( x =>x.UserName== loginDto.Username.ToLower());
             if (user == null) return Unauthorized("invalid userName");
@@ -57,7 +61,8 @@ namespace API.Controllers
                 if (computedHash[i] != user.PasswordHash[i]) return Unauthorized("invalid Password");
             }
 
-            return user;
+          //  return user;
+            return new UserDto { Username = user.UserName, Token = _tokenService.CreateToken(user) };
         }
         private async Task<bool> UserExists(string username)
         {

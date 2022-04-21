@@ -11,7 +11,6 @@ D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angu
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\obj\Debug\net5.0\API.AssemblyInfo.cs

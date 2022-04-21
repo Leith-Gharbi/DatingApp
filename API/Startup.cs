@@ -32,6 +32,8 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ITokenService, TokenService>();
+
             services.AddDbContext<DataDbContext>(option =>
             {
                 option.UseSqlite(_config.GetConnectionString("DefaultConnection"));
@@ -42,7 +44,7 @@ namespace API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
             services.AddCors();
-            services.AddScoped<ITokenService, TokenService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,7 +60,7 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+         
             // *********cors policy must be insert here between routing and endpoint *************
             app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             //************************************************************************************

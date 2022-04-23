@@ -24,4 +24,8 @@ export class HomeComponent implements OnInit {
       .get('https://localhost:44390/api/users')
       .subscribe((users) => (this.users = users));
   }
+
+  cancelRegisterMode(event: boolean) {
+    this.registerMode = event;
+  }
 }

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-register',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent implements OnInit {
+  @Input() UsersFromHomeComponent: any;
   model: any = {};
   constructor() {}
 
@@ -14,7 +16,7 @@ export class RegisterComponent implements OnInit {
   register() {
     console.log(this.model);
   }
-  cancel(){
-    console.log("canceled")
+  cancel() {
+    console.log('canceled');
   }
 }

@@ -13,8 +13,8 @@
     "Country": "Zimbabwe",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/81.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/81.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -32,8 +32,8 @@
     "Country": "Burkina Faso",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/75.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/75.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -51,8 +51,8 @@
     "Country": "Solomon Islands",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/78.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/78.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -70,8 +70,8 @@
     "Country": "Cocos (Keeling Islands)",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/18.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/18.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -89,8 +89,8 @@
     "Country": "St. Pierre and Miquelon",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/43.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/43.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -109,8 +109,8 @@
       "Country": "Italy",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/men/77.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/men/77.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -128,8 +128,8 @@
       "Country": "Paraguay",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/men/58.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/men/58.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -147,8 +147,8 @@
       "Country": "India",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/men/46.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/men/46.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -166,8 +166,8 @@
       "Country": "Slovak Republic",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/men/1.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/men/1.jpg",
+          "IsMain": true
         }
       ]
     },
@@ -185,8 +185,8 @@
       "Country": "Reunion",
       "Photos": [
         {
-          "url": "https://randomuser.me/api/portraits/men/59.jpg",
-          "isMain": true
+          "Url": "https://randomuser.me/api/portraits/men/59.jpg",
+          "IsMain": true
         }
       ]
     }

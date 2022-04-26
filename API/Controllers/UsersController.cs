@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-
+    [Authorize]
     public class UsersController : BaseApiController
     {
         private readonly DataDbContext _context;
@@ -23,7 +23,6 @@ namespace API.Controllers
         }
         // GET: api/<UsersController>
         [HttpGet]
-        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
 
@@ -31,7 +30,6 @@ namespace API.Controllers
         }
 
         // GET api/<UsersController>/5
-        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUSer(int id)
         {

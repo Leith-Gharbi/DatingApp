@@ -81,3 +81,9 @@ D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angu
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Data\UserSeedData.json
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\AutoMapper.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

@@ -128,7 +128,6 @@ namespace API.Controllers
             if (photo.IsMain) return BadRequest("you can not delete main photo");
             if (photo.PublicId != null) { var result =await _photoService.DeletePhotoAsync(photo.PublicId);
                 if (result.Error != null) return BadRequest(result.Error.Message);
-
             }
 
             user.Photos.Remove(photo);

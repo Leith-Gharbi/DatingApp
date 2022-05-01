@@ -2,8 +2,27 @@
 
     <h2 class="text-center text-primary">Sign up</h2>
     <hr>
+
+    <div class="form-group">
+        <label style="margin-right: 10px;" class="control-label">I am a :</label>
+        <label  class="radio-inline" class="me-3">
+            <input type="radio" value="male" formControlName="gender" class="me-2"> Male
+        </label>
+        <label  class="radio-inline" class="me-3">
+            <input type="radio" value="female" formControlName="gender" class="me-2"> Female
+        </label>
+    </div>
 <app-text-input [formControl]="registerForm.controls['username']"
  [label]='"Username"'></app-text-input>
+<app-text-input [formControl]="registerForm.controls['knownAs']"
+ [label]='"Known As"'></app-text-input>
+<app-text-input [formControl]="registerForm.controls['dateOfBirth']"
+ [label]='"Date of birth"'></app-text-input>
+<app-text-input [formControl]="registerForm.controls['country']"
+ [label]='"Country"'></app-text-input>
+<app-text-input [formControl]="registerForm.controls['city']"
+ [label]='"City"'></app-text-input>
+
 <app-text-input [formControl]="registerForm.controls['password']"
  [label]='"Password"' [type]='"password"'></app-text-input>
 <app-text-input [formControl]="registerForm.controls['confirmPassword']"

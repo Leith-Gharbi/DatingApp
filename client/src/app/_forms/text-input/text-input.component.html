@@ -1,3 +1,5 @@
+
+<div class="form-group mt-3">
 <input 
 [class.is-invalid]='ngControl.touched && ngControl.invalid'
 type={{type}}
@@ -16,3 +18,4 @@ class="form-control" >
        <div *ngIf="ngControl.control.errors?.isMatching" class="invalid-feedback">
        Password do not match 
        </div>
+    </div>

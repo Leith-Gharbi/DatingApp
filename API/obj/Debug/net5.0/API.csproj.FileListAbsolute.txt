@@ -87,3 +87,5 @@ D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angu
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\CloudinaryDotNet.dll
+D:\FORMATION\[FreeCourseSite.com] Udemy - Build an app with ASPNET Core and Angular from scratch\Project_Code\Codes\DatingApp\API\bin\Debug\net5.0\Newtonsoft.Json.dll

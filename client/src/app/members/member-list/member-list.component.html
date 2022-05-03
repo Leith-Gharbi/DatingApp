@@ -1,9 +1,72 @@
+<div class="text-center mt-3">
+  <h2>Tour matches - {{ pagination?.totalItems }} found</h2>
+</div>
+
+<div class="container mt-3">
+  <form
+    #form="ngForm"
+    class="form-inline mb-3"
+    (ngSubmit)="loadMembers()"
+    autocomplete="off"
+  >
+    <div class="row">
+      <div class="col">
+        <div class="form-group">
+          <label> Age from : </label>
+          <input
+            type="number"
+            class="form-control ml-1"
+            style="width: 70x"
+            name="minAge"
+            [(ngModel)]="userParams.minAge"
+          />
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group px-2">
+          <label> Age to : </label>
+          <input
+            type="number"
+            class="form-control ml-1"
+            style="width: 70x"
+            name="maxAge"
+            [(ngModel)]="userParams.maxAge"
+          />
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label> Show: </label>
+          <select
+            [(ngModel)]="userParams.gender"
+            name="gender"
+            style="width: 130px"
+            class="form-control me-1"
+          >
+            <option *ngFor="let gender of genderList" [value]="gender.value">
+              {{ gender.display }}
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="col">
+        <button class="btn btn-primary me-1" type="submit">
+          Apply Filters
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-info me-1" (click)="resetFilters()">
+          Reset Filters
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
 <div class="row">
   <div *ngFor="let member of members" class="col-2">
     <app-member-card [member]="member"></app-member-card>
   </div>
 </div>
-
 <div class="d-flex justify-content-center" *ngIf="pagination">
   <pagination
     [boundaryLinks]="true"

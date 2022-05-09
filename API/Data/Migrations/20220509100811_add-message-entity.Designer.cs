@@ -3,14 +3,16 @@ using System;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataDbContext))]
-    partial class DataDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220509100811_add-message-entity")]
+    partial class addmessageentity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,7 +80,7 @@ namespace API.Data.Migrations
                     b.Property<DateTime?>("DateRead")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("MassageSent")
+                    b.Property<DateTime?>("MassageSent")
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("RecipientDeleted")

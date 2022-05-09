@@ -15,7 +15,7 @@ namespace API.Interfaces
         void DeletMessage(Message message);
 
         Task<Message> GetMessage(int id);
-        Task<PagedList<MessageDto>> GetMessagesForUser();
+        Task<PagedList<MessageDto>> GetMessagesForUser(MessageParams massageParams);
         Task<IEnumerable<MessageDto>> GetMessageThread(int currentUserId, int recipientId);
         Task<bool> SaveAllAsync();
     }

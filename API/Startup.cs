@@ -68,7 +68,9 @@ namespace API
             app.UseRouting();
          
             // *********cors policy must be insert here between routing and endpoint ************
-            app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowCredentials().AllowAnyHeader());
+           // app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowCredentials().AllowAnyHeader());
+            app.UseCors(x=> x.SetIsOriginAllowed(origin => true) // allow any origin
+.AllowAnyMethod().AllowCredentials().AllowAnyHeader());
             //***********************************************************************************
 
 
@@ -83,6 +85,7 @@ namespace API
             {
                 endpoints.MapControllers();
                 endpoints.MapHub<PresenceHub>("hubs/presence");
+                endpoints.MapHub<PresenceHub>("hubs/message");
             });
         }
     }

@@ -68,7 +68,7 @@ namespace API
             app.UseRouting();
          
             // *********cors policy must be insert here between routing and endpoint ************
-            app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            app.UseCors(x=> x.AllowAnyOrigin().AllowAnyMethod().AllowCredentials().AllowAnyHeader());
             //***********************************************************************************
 
 

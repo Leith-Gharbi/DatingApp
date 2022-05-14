@@ -10,7 +10,7 @@
       <td>{{ user.roles }}</td>
       <td>
         <button
-          (click)="openRolesModal()"
+          (click)="openRolesModal(user, user.userName)"
           type="button"
           class="btn btn-outline-success"
         >
